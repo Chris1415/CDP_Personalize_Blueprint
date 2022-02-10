@@ -25,12 +25,12 @@
     const IDENTITY_FNAME = "Christian"; // have some fun with this
     const IDENTITY_LNAME = "Hahn"; // ditto
     const IDENTITY_PHONE = "2032938735"; // eventually this will be used for omnichannel
-	const DATE_OF_BIRTH = "1988-06-10T00:00:00.000Z";
+    const DATE_OF_BIRTH = "1988-06-10T00:00:00.000Z";
     const GENDER = "male";
     const IDENTITY_ID = "007"; // placeholder
     const IDENTITY_PROVIDER = "Hahn"; // also placeholder
     const CURRENCY = "EUR";
-	const ORDER_ID = "DummyOrder";
+    const ORDER_ID = "DummyOrder";
 
     // Mapping -> Ascii to Key
     const A = 65;const B = 66;const C = 67;const D = 68;const E = 69;const F = 70;const G = 71;const H = 72;const I = 73;const J = 74;const K = 75;const L = 76;const M = 77;const N = 78;const O = 79;const P = 80;const Q = 81;const R = 82;const S = 83;const T = 84;const U = 85;const V = 86;const W = 87;const X = 88;const Y = 89;const Z = 90;
