@@ -13,10 +13,10 @@
     // *********************************
     // CONSTS
     // *********************************
-    const SITECORECDP_CLIENT_KEY = "";  // spinair dc tenant - do not change
+    const SITECORECDP_CLIENT_KEY = "";  
     const SITECORECDP_CLIENT_SECRET = "";
-    const SITECORECDP_REST_API_BASIC_AUTH = "" //spinair dc tenant only - do not change
-    const SITECORECDP_POINT_OF_SALE = "StandardDemo"; //  do not change
+    const SITECORECDP_REST_API_BASIC_AUTH = "" 
+    const SITECORECDP_POINT_OF_SALE = "StandardDemo"; 
     const SITECORECDP_API_TARGET = "https://api.boxever.com/v1.2"; //  do not change
     const SITECORECDP_WEB_FLOW_TARGET = "https://d35vb5cccm4xzp.cloudfront.net"; //  do not change
     const SITECORECDP_JS_LIB_SRC = "https://d1mj578wat5n4o.cloudfront.net/boxever-1.4.1.min.js"; //  do not change
