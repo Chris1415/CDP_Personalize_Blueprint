@@ -8,4 +8,5 @@
 **Additional Information:** 
 
  - https://hachweb.wordpress.com/2022/02/10/sitecore-cdp-personalize-some-helpful-repository-at-the-beginning/
+ - https://hachweb.wordpress.com/2022/02/13/sitecore-personalize-create-your-first-web-experiences/
  - .... More will follow
