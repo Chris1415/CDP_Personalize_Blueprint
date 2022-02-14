@@ -1,3 +1,4 @@
+// REST via JS
 function GetCustomerIdentity(url, callback, relPart){
 	var xhr = new XMLHttpRequest();
 	xhr.open("GET", url, true);
@@ -20,4 +21,29 @@ function UpdateGuestData(baseUrl, relativePart, params){
 		console.log(xhr.responseText);
 	};
 	xhr.send(JSON.stringify(params));
+}
+
+// Helper 
+function GetCustomerBaseUrlByIdentityId(identity_id, identity_provider){
+	return "https://api.boxever.com/v2/guests/?identifiers.id="+identity_id + "&identifiers.provider="+identity_provider;
+}
+
+function GetCustomerBaseUrlByEmail(email){
+	return "https://api.boxever.com/v2/guests/?email="+email;
+}
+
+function GetGuestExtension(extensionName){
+	return "/ext" + extensionName;
+}
+
+function GetGuestExtensionParams(groupName, propertyName, propertyValue){
+	return {
+		key: groupName,
+		propertyName: propertyValue
+	}
+}
+
+// Example Usage
+function SetGuestMembership(email, isMember){
+	GetCustomerIdentity(GetCustomerBaseUrlByEmail(email), UpdateGuestData, GetGuestExtension("Kvb"), GetMembershipParams(isMember));
 }
