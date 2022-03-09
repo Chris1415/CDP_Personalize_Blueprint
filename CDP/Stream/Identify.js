@@ -30,7 +30,7 @@ function Identify(){
 //******************************************************************
 // Identity via Provider Name and ID
 //******************************************************************
-function Identify(identifier_provider, identifier_id, gender, firstName, lastName, email, dob, phoneNumber){
+function Identify(identifier_provider, identifier_id, gender, firstName, lastName, email, dob, phoneNumber, currency){
 	_boxeverq.push(function() {
 	var identityEvent = {
 		"browser_id": Boxever.getID(),
@@ -57,7 +57,7 @@ function Identify(identifier_provider, identifier_id, gender, firstName, lastNam
 //******************************************************************
 // Identity via Email
 //******************************************************************
-function Identify(gender, firstName, lastName, email, dob, phoneNumber){
+function Identify(gender, firstName, lastName, email, dob, phoneNumber, currency){
 	_boxeverq.push(function() {
 	var identityEvent = {
 		"browser_id": Boxever.getID(),
@@ -80,7 +80,7 @@ function Identify(gender, firstName, lastName, email, dob, phoneNumber){
 //******************************************************************
 // Identity with custom Properties in Event
 //******************************************************************
-function Identify(identifier_provider, identifier_id, gender, firstName, lastName, email, dob, phoneNumber){
+function Identify(identifier_provider, identifier_id, gender, firstName, lastName, email, dob, phoneNumber, currency){
 	_boxeverq.push(function() {
 	var identityEvent = {
 		"browser_id": Boxever.getID(),
